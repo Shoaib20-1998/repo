@@ -8,8 +8,8 @@ const userSchema = mongoose.Schema({
     versionKey:false
 })
 
-const kanbanuser = mongoose.model('kanbanuser',userSchema)
+const Kanbanuser = mongoose.model('newuser',userSchema)
 
 module.exports={
-    kanbanuser
+    Kanbanuser
 }
